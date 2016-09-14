@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3schols.org/2001/XML5Schema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>indexController</servlet-name>
+        <servlet-class>Connect4.maven.indexController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>updateScore</servlet-name>
+        <servlet-class>Connect4.maven.updateScore</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>indexController</servlet-name>
+        <url-pattern>/indexController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>updateScore</servlet-name>
+        <url-pattern>/updateScore</url-pattern>
+    </servlet-mapping>
+</web-app>
